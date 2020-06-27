@@ -13,7 +13,7 @@
 
   animation-name: cube-rotation;
   animation-duration: 20000ms;
-  animation-timing-function: linear;
+  animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
   animation-direction: normal;
   animation-fill-mode: none;
@@ -66,6 +66,6 @@
     transform: translateZ(500px) rotateX(360deg) rotateY(360deg);
   } */
   100% {
-    transform: rotateX(2760deg) rotateY(2760deg);
+    transform: rotateX(1440deg) rotateY(1440deg);
   }
 }
